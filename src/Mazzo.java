@@ -83,8 +83,8 @@ public class Mazzo {
 				return carta1;
 			case 2 : 
 				return carta2;
-		    default:
-		        return false;
+		    	default:
+		        	return false;
 		}
 		
 	}
@@ -130,11 +130,11 @@ public class Mazzo {
 		 */
 
 		if (punteggio >= punteggioMax) {
-	        JOptionPane.showMessageDialog(null, "Hai vinto, complimenti");
-	        return true;
+		        JOptionPane.showMessageDialog(null, "Hai vinto, complimenti");
+		        return true;
 		}else if (punteggio <= 0) {
 			JOptionPane.showMessageDialog(null, "Hai perso, mi dispiace");
-		    return true;
+		    	return true;
 		}else {
 			return false;
 		}
